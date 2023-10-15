@@ -1,0 +1,222 @@
+@media(width > 768px){
+    .photo-3{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .photo-10{
+        display: block;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .container2{
+        display: grid;
+        justify-content: center;
+        grid-template-areas: "meore pirveli"
+                              " mesame meotxe"
+                              "mesame mexute";
+                              gap: 15px;
+                              place-items: center;
+    }
+
+    
+
+    .container2{
+        grid-area: pirveli;
+    }
+
+    .mini-container{
+        grid-area: meore;
+        padding-top: 50px;
+    }
+
+    .photo-4{
+        grid-area: mesame;
+        padding-bottom: 20px;
+        margin-top: -40px;
+    }
+
+    .photo-2{
+        grid-area: meotxe;
+        margin-top: -50px;
+    }
+
+    .last-box{
+        grid-area: mexute;
+        padding-top: 20px;
+        margin-top: -22px;
+    }
+
+    h1{
+        color:#151515;
+        font-family: Big Shoulders Display;
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 65px;
+        text-transform: uppercase;
+        width: 540px; 
+    } 
+
+
+
+    .paragraph3{
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+    text-transform: uppercase;
+    width: 200px;
+    }
+
+    .giorgii{
+        position: absolute;
+        top: -500px;
+    }
+    .giorgiii{
+        position: absolute;
+        top: -500px;
+    }
+
+
+    .link{
+        position: relative;
+        top: -500px;
+        margin: 0 200px;
+    }
+
+    span{
+        margin: 0 -20px;
+    }
+
+ 
+    .section2 p{
+        width: 300px;
+        text-align: left;
+        position: relative;
+        left: 350px;
+        top: -500px;
+        color: #444444;
+        font-size: 18px;
+        font-family: Outfit;
+        font-weight: 300;
+        line-height: 28px;
+        word-wrap: break-word
+    }
+
+    .section2 h1{
+        position: relative;
+        top: -500px;
+        left: 210px;
+        color: #151515;
+        font-size: 70px;
+        font-family: Big Shoulders Display;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 65px;
+        word-wrap: break-word
+    }
+
+
+    .link{
+        position: relative;
+        left: 150px;
+    }
+
+    span{
+        position: relative;
+        left: 535px;
+        top: -565px;
+    }
+
+  .mini-container{
+        text-align: center;
+    }
+
+    .container{
+        margin-bottom: 200px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    footer p{
+        width: 350px;
+    } 
+}
+
+@media (width < 768px){
+    .photo-10{
+        display: none;
+    }
+}
+
+@media (width > 1440px){
+    .section1{
+        display: flex;
+    }
+    .hidden{
+        background-color: black;
+        width: 400px;
+        height: 700px;
+    }
+
+    .container2{
+        gap: 27px;
+    }
+
+    .last-box{
+        margin-top: -25px;
+    }
+    
+    .photo-2{
+        padding-bottom: 10px;
+    }
+
+    .section2 h1{
+        font-size: 85px;
+        margin-left: -150px;
+    }
+
+    .section2 p{
+        font-size: 25px;
+        margin-left: 400px;
+    }
+
+    span{
+        margin-left: 420px;
+    }
+
+    .link{
+        margin-left: 640px;
+    }
+
+    .link:hover{
+        background-color: #D5966C;
+    }
+
+    .bolo:hover{
+        color: #D5966C;
+    }
+
+    .section2 h1{
+        color: aliceblue;
+    }
+
+
+    .span-2{
+        color: black;
+    }
+}

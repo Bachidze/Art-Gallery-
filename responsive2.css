@@ -1,0 +1,58 @@
+@media (width > 768px){
+    .meore{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .surati{
+        display: none;
+    }
+
+    .surati-2{
+        width: 100vw;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 50px;
+        width: 100%;
+    }
+}
+
+
+@media (width < 768px){
+    .surati-2{
+        display: none;
+    }
+}
+
+@media (width > 1440px){
+
+    body{
+        overflow-x: hidden;
+    }
+    .surati-2{
+        display: none;
+    }
+
+    .link:hover{
+        background-color: #D5966C;
+    }
+
+    .surati-3{
+        width: 100vw;
+    }
+}
+
+@media (width < 1440px){
+  .surati-3{
+    display: none;
+  }
+    
+
+}
+
