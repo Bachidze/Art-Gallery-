@@ -49,6 +49,8 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    flex-direction: row;
 }
 
 a{
@@ -64,17 +66,16 @@ a{
 }
 
 span{
-    background-color: orange;
-    position: relative;
-    left: 166px;
+  background-color: orange;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 49px;
     width: 40px;
-    top: -64.5px;
     font-size: 30px;
-    color: white;
+    color: white; 
+    margin-left: 190px;
 }
 
 .photo{
@@ -162,4 +163,15 @@ h3{
     width: 150px;
     padding-bottom: 30px;
 }
+
+.section2 p{
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section1{
+    padding-bottom: 90px;
+}
+
 

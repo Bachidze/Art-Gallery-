@@ -21,6 +21,9 @@
         gap: 50px;
         width: 100%;
     }
+    p{
+        width: 350px;
+    }
 }
 
 
@@ -45,6 +48,9 @@
 
     .surati-3{
         width: 100vw;
+    }
+    p{
+        width: 400px;
     }
 }
 
