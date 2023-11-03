@@ -163,10 +163,7 @@
     .photo-10{
         display: none;
     }
-    
-    .link{
-        display: none;
-    }
+
 }
 
 @media (width > 1440px){

@@ -46,11 +46,11 @@ p{
 .link{
     background-color: black;
     width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0 auto;
     flex-direction: row;
+    margin-top: 30px;
+    position: relative;
+    left: -20px;
 }
 
 
@@ -73,8 +73,9 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 49px;
-    width: 40px;
+    width: 40px; 
+    padding-top: 9px;
+    padding-bottom: 10px;
     font-size: 30px;
     color: white; 
     margin-left: 190px;
