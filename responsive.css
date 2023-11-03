@@ -217,6 +217,7 @@
 
     .link:hover{
         background-color: #D5966C;
+        transition: 1.5s;
     }
 
     .bolo:hover{

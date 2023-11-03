@@ -102,8 +102,9 @@ h4{
     text-transform: uppercase;
 }
 
-.link:hover{
+.link a:hover{
     background-color: #D5966C;
+    transition: 1.5s;
 }
 
 h5{

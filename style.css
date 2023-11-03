@@ -53,6 +53,8 @@ p{
     flex-direction: row;
 }
 
+
+
 a{
     color: white;
     display: flex;
@@ -173,5 +175,6 @@ h3{
 .section1{
     padding-bottom: 90px;
 }
+
 
 
