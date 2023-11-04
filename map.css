@@ -35,7 +35,7 @@ a{
 }
 
 span{
-    background-color: orange;
+    background-color: #D5966C;
     position: relative;
     left: 8px;
     display: flex;
@@ -104,8 +104,14 @@ h4{
 
 .link a:hover{
     background-color: #D5966C;
-    transition: 1.5s;
+    transition: 0.3s;
 }
+
+.link:hover span{
+    background-color: #444444;
+    transition: 0.3s;
+}
+
 
 h5{
     margin-top: 60px;

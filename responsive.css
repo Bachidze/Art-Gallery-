@@ -84,7 +84,7 @@
     }
     .giorgiii{
         position: absolute;
-        top: -500px;
+        top: -600px;
     }
     .section2 p{
         margin-left: 9300px;
@@ -166,14 +166,80 @@
 
 }
 
+@media(width < 1440px){
+    .reedu{
+        display: none;
+    }
+
+    .reedu-2{
+        display: none;
+    }
+
+    .reedu-3{
+        display: none;
+    }
+}
+
 @media (width > 1440px){
     .section1{
         display: flex;
     }
     .hidden{
         background-color: black;
-        width: 400px;
-        height: 700px;
+        width: 450px;
+        height: 720px;
+    }
+    .photo-10{
+        width: 450px;
+        height: 1500px;
+        margin-top: -390px;
+    }
+
+    .paragraph3{
+        color: #151515;
+    font-size: 60px;
+    font-family: Big Shoulders Display;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 60px;
+    word-wrap: break-word;
+    width: 300px;
+    text-align: left;
+    }
+    .mini-container{
+        margin-left: -400px;
+    }
+
+    .last-box{
+        width: 445px;
+        height: 377px;
+    }
+    .mini-container p{
+        text-align: left;
+    }
+    .photo-2{
+        display: none;
+    }
+
+    .photo-4{
+        display: none;
+    }
+
+    .zoma{
+        display: none;
+    }
+
+    .reedu{
+        margin-left: -90px;
+    }
+
+    .reedu-2{
+        margin-left: -200px;
+    }
+
+    .reedu-3{
+        margin-top: -405px;
+        margin-left: -6px;
     }
 
     .container2{
@@ -181,22 +247,54 @@
     }
 
     .last-box{
-        margin-top: -25px;
+        margin-top: -412.5px;
+        margin-left: -5px;
     }
     
     .photo-2{
         padding-bottom: 10px;
     }
 
+    .last-box h2{
+        color: white;
+    font-size: 60px;
+    font-family: Big Shoulders Display;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 60px;
+    word-wrap: break-word;
+    padding-top: 65px;
+    }
+
+    .last-box p{
+        color: white;
+    font-size: 22px;
+    font-family: Outfit;
+    font-weight: 300;
+    line-height: 32px;
+    word-wrap: break-word;
+    }
+
     .section2 h1{
         font-size: 85px;
-        margin-left: -150px;
+        margin-left: -100px;
+        margin-top: -400px;
+        margin-bottom: 390px;
+        color: white;
+        font-size: 96px;
+        font-family: Big Shoulders Display;
+        font-weight: 900;
+        text-transform: uppercase;
+        line-height: 88px;
+        word-wrap: break-word;
     }
 
     .section2 p{
         font-size: 25px;
         margin-left: 790px;
+        margin-top: -600px;
     }
+
 
    .section2 h1{
     mix-blend-mode: difference;
@@ -206,15 +304,22 @@
 .section2{
     
     margin-top: -130px;
+    margin-bottom: -300px;
   }
 
     .link{
         margin-left: 640px;
+        margin-top: 100px;
     }
 
-    .link:hover{
+    .link:hover a{
         background-color: #D5966C;
-        transition: 1.5s;
+        transition: 0.3s;
+    }
+
+    .link:hover span{
+        background-color:#444444;
+        transition: 0.3s;
     }
 
     .bolo:hover{
