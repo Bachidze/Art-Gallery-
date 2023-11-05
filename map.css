@@ -112,6 +112,13 @@ h4{
     transition: 0.3s;
 }
 
+.mark{
+    display: flex;
+    justify-content: center;
+    margin-top: -370px;
+    margin-bottom: 320px;
+}
+
 
 h5{
     margin-top: 60px;
