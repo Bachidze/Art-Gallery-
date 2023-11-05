@@ -18,8 +18,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 19px;
+    padding-bottom: 19px;
     color: white;
     text-decoration: none;
     color: #FFF;
@@ -41,7 +41,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 49px;
+    height: 62px;
     width: 40px;;
     font-size: 30px;
     color: white;
